@@ -13,7 +13,7 @@
     <script src="style.css"></script>
     <script src="app.js"></script>
     <body>
-        <img id="image" src="pineapple.png" width="131" height=""></img>
+        <img id="image" src="clowner.png" width="131" height=""></img>
         <div class="topnav">
             <a href="123.html"><hi><i class="fa fa-home"></i></hi> random home page</a>
             <a href="456.html">random number</a>
@@ -60,12 +60,12 @@
                 console.log("toggle")
                 var spriteelement = document.getElementById("image")
                 console.log(spriteelement.src)
-                if(spriteelement.src === urlbase+"pineapple.png"){
-                    spriteelement.src = urlbase+"pizza.png"
-                } else if(spriteelement.src === urlbase+"pizza.png"){
-                    spriteelement.src = urlbase+"love.png"
-                } else if(spriteelement.src === urlbase+"love.png"){
-                    spriteelement.src = urlbase+"pineapple.png"
+                if(spriteelement.src === urlbase+"clowner.png"){
+                    spriteelement.src = urlbase+"clowner.png"
+                } else if(spriteelement.src === urlbase+"clowner.png"){
+                    spriteelement.src = urlbase+"clowner.png"
+                } else if(spriteelement.src === urlbase+"clowner.png"){
+                    spriteelement.src = urlbase+"clowner.png"
                 }
 
             }
